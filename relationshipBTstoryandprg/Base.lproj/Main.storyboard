@@ -37,15 +37,18 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="label1" destination="vul-Th-b6Y" id="ma2-1A-yxp"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="928.98550724637687" y="92.410714285714278"/>
         </scene>
-        <!--View Controller-->
+        <!--Second View Controller-->
         <scene sceneID="BZh-xH-C0L">
             <objects>
-                <viewController id="4yC-1H-vnL" sceneMemberID="viewController">
+                <viewController id="4yC-1H-vnL" customClass="SecondViewController" customModule="relationshipBTstoryandprg" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dEV-os-gtv">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -71,15 +74,18 @@
                             </connections>
                         </barButtonItem>
                     </navigationItem>
+                    <connections>
+                        <outlet property="label2" destination="1db-LY-5Mr" id="N6y-GZ-07C"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Whi-WB-pAU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1602.8985507246377" y="98.4375"/>
         </scene>
-        <!--View Controller-->
+        <!--Third View Controller-->
         <scene sceneID="QBN-fM-o6A">
             <objects>
-                <viewController id="UJe-FV-tFh" sceneMemberID="viewController">
+                <viewController id="UJe-FV-tFh" customClass="ThirdViewController" customModule="relationshipBTstoryandprg" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="R0h-Uz-DH8">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -99,6 +105,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="3AO-PS-RTf"/>
+                    <connections>
+                        <outlet property="label3" destination="bC2-Dl-G0g" id="5eW-bY-tdz"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="jak-wL-rnL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
